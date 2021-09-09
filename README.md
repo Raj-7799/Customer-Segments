@@ -1,7 +1,7 @@
-# Content: Unsupervised Learning
-## Project: Creating Customer Segments
+# Project: Creating Customer Segments
+## Content: Unsupervised Learning
 
-### Install
+### Installation
 
 This project requires **Python 2.7** and the following Python libraries installed:
 
@@ -47,3 +47,22 @@ Note (m.u.) is shorthand for *monetary units*.
 6) `Delicatessen`: annual spending (m.u.) on and delicatessen products (Continuous); 
 7) `Channel`: {Hotel/Restaurant/Cafe - 1, Retail - 2} (Nominal)
 8) `Region`: {Lisbon - 1, Oporto - 2, or Other - 3} (Nominal) 
+
+
+### Feature Correlation
+![](images/data_correlation.png)
+
+### PCA dimensions with data distribution
+![](images/pca_variance.png)
+
+### Clustering
+![](images/segmentation.png)
+
+### Distribution for customers in Cluster 1
+![](images/cluster_1.png)
+
+### Distribution for customers in Cluster 2
+![](images/cluster_2.png)
+
+### Testing samples
+![](images/cluster_dimensions.png)
